@@ -1,12 +1,12 @@
 {
   "compilerOptions": {
     "allowJs": true,
-    "checkJs": true,
+    "checkJs": false,
     "module": "commonjs",
     "noImplicitAny": false,
     "noImplicitThis": false,
     "noEmit": true,
-    "strictNullChecks": true,
+    "strictNullChecks": false,
     "types": [
         "node"
     ],
