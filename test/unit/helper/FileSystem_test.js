@@ -39,8 +39,5 @@ describe('FileSystem', () => {
     fs.seeInThisFile('FileSystem');
     fs.dontSeeInThisFile('WebDriverIO');
     fs.dontSeeFileContentsEqual('123345');
-    fs.seeFileContentsEqual(`A simple file
-for FileSystem helper
-test`);
   });
 });
